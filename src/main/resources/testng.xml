@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+        <test name="测试目录">
+            <packages>
+                <package name="testcase.*"/>
+            </packages>
+        </test>
+
+<!--    <testcase name="测试用例，include-包含、exclude-排除">-->
+<!--        <classes>-->
+<!--            <class name="com.example.demo.testng.TC1">-->
+<!--                <methods>-->
+<!--                    <include name="case1"/>-->
+<!--                    <exclude name="case2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </testcase>-->
+
+<!--    <testcase name="测试group，include-包含、exclude-排除" verbose="2">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="1" />-->
+<!--                <include name="2" />-->
+<!--            </run>-->
+<!--        </groups>-->
+
+<!--        <classes>-->
+<!--            <class name="testcase.TC2" />-->
+<!--        </classes>-->
+<!--    </testcase>-->
+
+    <!--    <testcase name="测试类">-->
+<!--        <classes>-->
+<!--            <class name="com.example.demo.testng.TC1"/>-->
+<!--            <class name="com.example.demo.testng.TC2"/>-->
+<!--        </classes>-->
+<!--    </testcase>-->
+
+<!--    <testcase name="测试目录">-->
+<!--        <packages>-->
+<!--            <package name="com.example.demo.testng.*"/>-->
+<!--        </packages>-->
+<!--    </testcase>-->
+
+</suite>
